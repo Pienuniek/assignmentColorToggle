@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body class="bgGrey">
+    <div class="parent">
+      <div class="hamburger">
+        <div class="topbun"></div>
+        <div class="patty"></div>
+        <div class="bottombun"></div>
+      </div>
+      <div class="menu">
+        <ul class="menuList">
+          <li class="bgGrey" onclick="backgroundGrey()"><input type="radio" id="Grey" name="bg-color" value="grey">
+            <label for="Grey">Home</label><br></li>
+          <li class="bgRed" onclick="backgroundRed()"><input type="radio" id="Red" name="bg-color" value="red">
+            <label for="Red">Red</label><br></li>
+          <li class="bgOrange" onclick="backgroundOrange()"><input type="radio" id="Orange" name="bg-color" value="orange">
+            <label for="Orange">Orange</label><br></li>
+          <li class="bgPurple" onclick="backgroundPurple()"><input type="radio" id="Purple" name="bg-color" value="purple">
+          <label for="Purple">Purple</label><br></li>
+          <li class="bgGreen" onclick="backgroundGreen()"><input type="radio" id="Green" name="bg-color" value="green">
+            <label for="Green">Green</label><br></li>
+        </ul>
+      </div>
+    </div>
+    <header class="colorName">Grey</header>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* the backgroundclasses*/
+.bgBlue{
+    background:blue;
+}
+
+.bgGrey{
+    background: grey;
+}
+.bgRed{
+    background:red;
+}
+.bgOrange{
+    background:orange;
+}
+.bgPurple{
+    background:purple;
+}
+.bgGreen{
+    background:green;
+}
+
+/*the hamburger menu*/
+.hamburger {
+    width: 100px;
+    height: 100px;
+    position:relative;
+    cursor: pointer;
+}
+
+.patty {
+    width: 90px;
+    height: 12px;
+    background: black;
+    border-radius: 5px;
+    position: absolute;
+    left:0;
+    top:46px;
+}
+.topbun {
+    width: 90px;
+    height: 12px;
+    background: black;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top:25px;
+}
+.bottombun {
+    width: 90px;
+    height: 12px;
+    background: black;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top:68px;
+}
+
+/*the dropdown menu*/
+.menu {
+    transition: 300ms ease-out;
+    position: absolute;
+    left: -350px;
+}
+
+.menu ul {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    list-style: none;
+    width: 350px;
+}
+.menu ul li {
+    padding: 15px;
+    border: 2px solid grey;
+}
+.parent{
+display: inline-block;
+}
+.colorName{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+}
